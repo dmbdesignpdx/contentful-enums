@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	block-size: fit-content;
+	inline-size: 20rem;
+}
+
+.container div {
+	margin-block-start: 0.5rem;
+	inline-size: 100%;
+}
